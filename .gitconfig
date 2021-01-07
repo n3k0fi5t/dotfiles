@@ -1,0 +1,28 @@
+[user]
+	email = r05922078@ntu.edu.tw
+	name = n3k0fi5t
+[core]
+	pager = less -X -F
+
+[alias]
+	a = add
+	b = branch
+	c = commit
+	cl = clone
+	cm = commit -m
+	cs = commit -s
+	co = checkout
+	cp = cherry-pick
+	d = diff --color=auto
+	dc = diff --color=auto --cached
+	diff = diff --color=auto
+	f = fetch
+	g = grep --break --heading --line-number --color=auto
+	l = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%ai%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	lol = log --oneline
+	m = merge
+	p = pull
+	s = status
+
+[pull]
+	rebase = true
